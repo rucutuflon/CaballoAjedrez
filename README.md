@@ -23,11 +23,10 @@ Para ello te pongo un diagrama de clases para el mismo y poco a poco te iré exp
 13. Crea un constructor por defecto para esta clase que cree un caballo negro en la posición '8b'. Haz un commit.
 14. Crea un constructor para la clase que acepte como parámetro el color que creará un caballo de dicho color cuya posición será '1b' si es blanco o '8b' si es negro.. Haz un commit.
 15. Crea un constructor para la clase que acepte como parámetros el color y la columna inicial. La columna inicial debe ser la 'b' o la 'g' (de lo contrario debe lanzar la excepción `IllegalArgumentException` con un mensaje adecuado) y creara un caballo del color dado y colocado en dicha columna y cuya fila será la 1 si el blanco y la 8 si es el negro.
-16. Crea un constructor copia para la clase. Haz un commit.
-17. Crea el método mover que dependiendo del movimiento modificará la posición del mismo o si no puede realizar dicho movimiento debe lanzar una excepción del tipo `OperationNotSupportedException` con un mensaje adecuado y no modificará la posición del caballo. Haz un commit.
-18. Crea el método `equals` para comparar la igualdad de objetos de la clase. Haz un commit.
-19. Crea el método  `toString` que devuelva un String que será la representación de dicho objeto (color y posición). Haz un commit.
-20. Crea los diferentes métodos que se indican en el diagrama de clases para permitir que el método main nos muestre un menú que nos permitirá crear un caballo por defecto, crear un caballo de un color, crear un caballo de un color en una columna inicial válida, mover el caballo y salir. Después de cada operación se nos mostrará el estado actual de nuestro caballo. El menú se repetirá mientras no elijamos la opción salir. En todo caso se debe validar que todas las entradas al programa son correctas. Haz un commit.
+16. Crea el método mover que dependiendo del movimiento modificará la posición del mismo o si no puede realizar dicho movimiento debe lanzar una excepción del tipo `OperationNotSupportedException` con un mensaje adecuado y no modificará la posición del caballo. Haz un commit.
+17. Crea el método `equals` para comparar la igualdad de objetos de la clase. Haz un commit.
+18. Crea el método  `toString` que devuelva un String que será la representación de dicho objeto (color y posición). Haz un commit.
+19. Crea los diferentes métodos que se indican en el diagrama de clases para permitir que el método main nos muestre un menú que nos permitirá crear un caballo por defecto, crear un caballo de un color, crear un caballo de un color en una columna inicial válida, mover el caballo y salir. Después de cada operación se nos mostrará el estado actual de nuestro caballo. El menú se repetirá mientras no elijamos la opción salir. En todo caso se debe validar que todas las entradas al programa son correctas. Haz un commit.
 
 ###### Se valorará:
 - La nomenclatura del repositorio de GitHub.
